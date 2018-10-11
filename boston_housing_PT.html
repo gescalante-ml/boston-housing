@@ -12453,7 +12453,7 @@ Um <strong>'PTRATIO'</strong> menor também deve aumentar o valor do imóvel, j�
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Resposta:</strong> A validação-cruzada-k-fold nos permite usar todos nossos dados de forma que ainda tenhamos como saber como o modelo se sairia no mundo real, pois ele divide (e, antes, preferencialmente sorteia (<em>randomiza</em>) os dados em <em>k</em> pedaços e então treina <em>k</em> vezes - assim podemos utilizar todo o poder do nosso conjunto de dados.</p>
+<p><strong>Resposta:</strong> A validação-cruzada-k-fold nos permite usar todos nossos dados de forma que ainda tenhamos como saber como o modelo se sairia no mundo real, pois ele divide (e, antes, preferencialmente sorteia (<em>randomiza</em>) os dados em <em>k</em> pedaços e então treina <em>k</em> vezes - assim podemos utilizar todo o poder do nosso conjunto de dados, já que <em>k</em> teremos diferentes subconjuntos de dados. Ao escolher um subconjunto como sendo de teste, os outros <em>k-1</em> tornam-se de treino e então é feita a validação, após treinar <em>k</em> vezes,é retirada a média de desempenho. Isso traz benefícios a busca em matriz pois a avaliação do modelo se trona mais precisa e traz uma melhor avaliação de como a escolha de parâmetros influenciou o desempenho.</p>
 
 </div>
 </div>
